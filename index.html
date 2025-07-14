@@ -4,860 +4,562 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Savory Delights | Gourmet Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="https://i.ibb.co/3hLQ5V1/restaurant-logo.png" alt="Savory Delights Logo">
+        </div>
+        
+        <ul id="navMenu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Gallary">Gallery</a></li>
+            <li><a href="#Review">Reviews</a></li>
+            <li><a href="#Order">Order</a></li>
+        </ul>
+        
+        <div class="nav-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <button id="theme-toggle"><i class="fa-solid fa-moon"></i></button>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
     <section id="Home">
-        <nav>
-            <div class="logo">
-                <img src="image/logo.png" alt="undufined">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Experience Fresh <span>Culinary Delights</span> Crafted to Perfection</h1>
+                <p>Discover an unforgettable dining experience where passion meets flavor. Our chefs create masterpieces using only the freshest ingredients, bringing you a symphony of tastes that will delight your senses.</p>
+                <a href="#Order" class="cta-button">Order Now <i class="fa-solid fa-angle-right"></i></a>
             </div>
-
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Gallary">Gallary</a></li>
-                <li><a href="#Review">Review</a></li>
-                <li><a href="#Order">Order</a></li>
-            </ul>
-
-            <div class="icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+            
+            <div class="hero-image">
+                <img src="https://i.ibb.co/vvQj8C1/hero-food.png" alt="Gourmet Dish">
             </div>
-
-        </nav>
-
-        <div class="main">
-
-            <div class="men_text">
-                <h1>Get Fresh<span>Food</span><br>in a Easy Way</h1>
-            </div>
-
-            <div class="main_image">
-                <img src="image/main_img.png" alt="undefined">
-            </div>
-
         </div>
-
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse reiciendis quaerat nobis 
-            deleniti amet non inventore. Reprehenderit recusandae voluptatibus minus tenetur itaque numquam 
-            cum quos dolorem maxime. Quas, quaerat nisi. Lorem ipsum dolor sit, amet consectetur adipisicing 
-            elit. Cumque facilis, quaerat cupiditate nulla quibusdam quo sunt esse tempore inventore vel 
-            voluptate, amet laudantium adipisci veniam nihil quam molestiae omnis mollitia.
-        </p>
-
-        <div class="main_btn">
-            <a href="#">Order Now</a>
-            <i class="fa-solid fa-angle-right"></i>
-        </div>
-
     </section>
 
-
-
-    <!--About-->
-
-    <div class="about" id="About">
-        <div class="about_main">
-
-            <div class="image">
-                <img src="image/Food-Plate.png" alt="undefined">
-            </div>
-
-            <div class="about_text">
-                <h1><span>About</span>Us</h1>
-                <h3>Why Choose us?</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, est. Doloremque 
-                    sapiente veritatis laboriosam corrupti optio et maxime. Ad, amet explicabo eaque labore 
-                    cupiditate quasi nostrum nemo recusandae id quibusdam? Lorem ipsum dolor sit amet 
-                    consectetur adipisicing elit. Doloremque ab, dolores pariatur cum exercitationem, illo nisi 
-                    veritatis vitae ea deleniti fugiat quisquam tempora, accusantium corrupti excepturi optio. 
-                    Inventore, cupiditate recusandae.
-                </p>
-            </div>
-
+    <!-- About Section -->
+    <section class="section" id="About">
+        <div class="section-title">
+            <h1><span>About</span> Us</h1>
         </div>
-
-        <a href="#" class="about_btn">Order Now</a>
-
-    </div>
-
-
-
-    <!--Menu-->
-
-    <div class="menu" id="Menu">
-        <h1>Our<span>Menu</span></h1>
-
-        <div class="menu_box">
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/buger.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Buger</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
+        
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://i.ibb.co/5KjfJ3k/about-food.jpg" alt="About Our Restaurant">
+            </div>
             
-            <div class="menu_card">
+            <div class="about-text">
+                <h3>Why Choose Us?</h3>
+                <p>Founded in 2010, Savory Delights has been redefining the culinary landscape with innovative dishes that blend tradition with modern techniques. Our passion for exceptional food is matched only by our commitment to creating memorable dining experiences.</p>
+                <p>Every ingredient that enters our kitchen is carefully selected from trusted local producers who share our commitment to sustainability and quality. Our chefs then transform these ingredients into extraordinary dishes that tell a story with every bite.</p>
+                <p>Whether you're celebrating a special occasion or simply enjoying a night out, our warm ambiance and attentive service will make you feel right at home.</p>
+                <a href="#Menu" class="cta-button">Explore Our Menu</a>
+            </div>
+        </div>
+    </section>
 
-                <div class="menu_image">
-                    <img src="image/pasta.jpg" alt="undefined">
+    <!-- Menu Section -->
+    <section class="section" id="Menu">
+        <div class="section-title">
+            <h1>Our <span>Menu</span></h1>
+        </div>
+        
+        <div class="menu-grid">
+            <!-- Menu Item 1 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="https://i.ibb.co/5KjfJ3k/burger.jpg" alt="Gourmet Burger">
                 </div>
-
-                <div class="small_card">
+                <div class="favorite">
                     <i class="fa-solid fa-heart"></i>
                 </div>
-
-                <div class="menu_info">
-                    <h2>pasta</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
+                <div class="menu-info">
+                    <h2>Gourmet Burger</h2>
+                    <p>Premium beef patty with aged cheddar, crispy bacon, and signature sauce on a brioche bun</p>
+                    <span class="price">$18.50</span>
+                    <div class="rating">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
-                    <a href="#" class="menu_btn">Order Now</a>
+                    <a href="#Order" class="menu-btn">Order Now</a>
                 </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/lasagna.webp" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>lasagna</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/chocolate_Drink.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Drink</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/pizza.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>pizza</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/Hot_dog.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Hot Dog</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/juse.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Juse</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/biryani.webp" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Biryani</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/chocolate.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Chocolate</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/ice_cream.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Ice Cream</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/Spanchi.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Spanchi</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
-
-            <div class="menu_card">
-
-                <div class="menu_image">
-                    <img src="image/sandwich.jpg" alt="undefined">
-                </div>
-
-                <div class="small_card">
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-
-                <div class="menu_info">
-                    <h2>Sandwich</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
-                    </p>
-                    <h3>$20.00</h3>
-                    <div class="menu_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    <a href="#" class="menu_btn">Order Now</a>
-                </div>
-
-            </div> 
+            </div>
             
+            <!-- Menu Item 2 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="https://i.ibb.co/5KjfJ3k/pasta.jpg" alt="Truffle Pasta">
+                </div>
+                <div class="favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="menu-info">
+                    <h2>Truffle Pasta</h2>
+                    <p>Handmade fettuccine with wild mushrooms, black truffle, and parmesan cream sauce</p>
+                    <span class="price">$22.00</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#Order" class="menu-btn">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Menu Item 3 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="https://i.ibb.co/5KjfJ3k/salmon.jpg" alt="Seared Salmon">
+                </div>
+                <div class="favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="menu-info">
+                    <h2>Seared Salmon</h2>
+                    <p>Atlantic salmon with lemon-dill sauce, roasted asparagus, and herb-infused rice</p>
+                    <span class="price">$24.75</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#Order" class="menu-btn">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Menu Item 4 -->
+            <div class="menu-card">
+                <div class="menu-image">
+                    <img src="https://i.ibb.co/5KjfJ3k/dessert.jpg" alt="Chocolate Symphony">
+                </div>
+                <div class="favorite">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="menu-info">
+                    <h2>Chocolate Symphony</h2>
+                    <p>Triple-layer chocolate cake with raspberry coulis and vanilla bean ice cream</p>
+                    <span class="price">$12.95</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#Order" class="menu-btn">Order Now</a>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </div>
-
-
-
-
-    <!--Gallary-->
-
-    <div class="gallary" id="Gallary">
-        <h1>Our<span>Gallary</span></h1>
-
-        <div class="gallary_image_box">
-            <div class="gallary_image">
-                <img src="image/gallary_1.jpg" alt="undefined">
-
-                <h3>Food</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
-                </p>
-                <a href="#" class="gallary_btn">Order Now</a>
-            </div>
-
-            <div class="gallary_image">
-                <img src="image/gallary_2.jpg" alt="undefined">
-
-                <h3>Food</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
-                </p>
-                <a href="#" class="gallary_btn">Order Now</a>
-            </div>
-
-            <div class="gallary_image">
-                <img src="image/gallary_3.jpg" alt="undefined">
-
-                <h3>Food</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
-                </p>
-                <a href="#" class="gallary_btn">Order Now</a>
-            </div>
-
-            <div class="gallary_image">
-                <img src="image/gallary_4.jpg" alt="undefined" >
-
-                <h3>Food</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
-                </p>
-                <a href="#" class="gallary_btn">Order Now</a>
-            </div>
-
-            <div class="gallary_image">
-                <img src="image/gallary_5.jpg" alt="undefined">
- 
-                <h3>Food</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
-                </p>
-                <a href="#" class="gallary_btn">Order Now</a>
-            </div>
-
-            <div class="gallary_image">
-                <img src="image/gallary_6.jpg"  alt="undefined" >
-
-                <h3>Food</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sint eveniet laboriosam 
-                </p>
-                <a href="#" class="gallary_btn">Order Now</a>
-            </div>
-
+    <!-- Gallery Section -->
+    <section class="section" id="Gallary">
+        <div class="section-title">
+            <h1>Our <span>Gallery</span></h1>
         </div>
-
-    </div>
-
-
-
-
-    <!--Review-->
-
-    <div class="review" id="Review">
-        <h1>Customer<span>Review</span></h1>
-
-        <div class="review_box">
-            <div class="review_card">
-
-                <div class="review_profile">
-                    <img src="image/review_1.png" alt="undefined">
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://i.ibb.co/5KjfJ3k/gallery1.jpg" alt="Restaurant Interior">
+                <div class="gallery-overlay">
+                    <h3>Elegant Dining</h3>
+                    <p>Our beautifully designed dining space for memorable experiences</p>
+                    <a href="#" class="gallery-btn">View More</a>
                 </div>
-
-                <div class="review_text">
-                    <h2 class="name">John Deo</h2>
-
-                    <div class="review_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-
-                    <div class="review_social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
-                        blanditiis in fugiat tempore necessitatibus aliquid. Id adipisci, rem corrupti 
-                        asperiores distinctio delectus quae quia tenetur totam laboriosam quam. Lorem ipsum, 
-                        dolor sit amet consectetur adipisicing elit. Dolores soluta ullam ipsa voluptates 
-                        repudiandae dignissimos deleniti mollitia eum. Laudantium placeat velit nemo illo 
-                        pariatur. Fuga aperiam impedit illo atque repellendus!
-                    </p>
-
-                </div>
-
             </div>
-
-            <div class="review_card">
-
-                <div class="review_profile">
-                    <img src="image/review_2.png" alt="undefined">
+            
+            <div class="gallery-item">
+                <img src="https://i.ibb.co/5KjfJ3k/gallery2.jpg" alt="Chef Preparing Dish">
+                <div class="gallery-overlay">
+                    <h3>Master Chefs</h3>
+                    <p>Our culinary team crafting exceptional dishes</p>
+                    <a href="#" class="gallery-btn">View More</a>
                 </div>
-
-                <div class="review_text">
-                    <h2 class="name">John Deo</h2>
-
-                    <div class="review_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-
-                    <div class="review_social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
-                        blanditiis in fugiat tempore necessitatibus aliquid. Id adipisci, rem corrupti 
-                        asperiores distinctio delectus quae quia tenetur totam laboriosam quam. Lorem ipsum, 
-                        dolor sit amet consectetur adipisicing elit. Dolores soluta ullam ipsa voluptates 
-                        repudiandae dignissimos deleniti mollitia eum. Laudantium placeat velit nemo illo 
-                        pariatur. Fuga aperiam impedit illo atque repellendus!
-                    </p>
-
-                </div>
-
             </div>
-
-            <div class="review_card">
-
-                <div class="review_profile">
-                    <img src="image/review_3.png" alt="undefined">
+            
+            <div class="gallery-item">
+                <img src="https://i.ibb.co/5KjfJ3k/gallery3.jpg" alt="Fresh Ingredients">
+                <div class="gallery-overlay">
+                    <h3>Farm Fresh</h3>
+                    <p>Locally sourced ingredients for the freshest flavors</p>
+                    <a href="#" class="gallery-btn">View More</a>
                 </div>
-
-                <div class="review_text">
-                    <h2 class="name">John Deo</h2>
-
-                    <div class="review_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-
-                    <div class="review_social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
-                        blanditiis in fugiat tempore necessitatibus aliquid. Id adipisci, rem corrupti 
-                        asperiores distinctio delectus quae quia tenetur totam laboriosam quam. Lorem ipsum, 
-                        dolor sit amet consectetur adipisicing elit. Dolores soluta ullam ipsa voluptates 
-                        repudiandae dignissimos deleniti mollitia eum. Laudantium placeat velit nemo illo 
-                        pariatur. Fuga aperiam impedit illo atque repellendus!
-                    </p>
-
-                </div>
-
             </div>
-
-            <div class="review_card">
-
-                <div class="review_profile">
-                    <img src="image/review_4.png" alt="">
+            
+            <div class="gallery-item">
+                <img src="https://i.ibb.co/5KjfJ3k/gallery4.jpg" alt="Cocktail">
+                <div class="gallery-overlay">
+                    <h3>Signature Cocktails</h3>
+                    <p>Creative mixology with premium spirits</p>
+                    <a href="#" class="gallery-btn">View More</a>
                 </div>
-
-                <div class="review_text">
-                    <h2 class="name">John Deo</h2>
-
-                    <div class="review_icon">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-
-                    <div class="review_social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </div>
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quam facere 
-                        blanditiis in fugiat tempore necessitatibus aliquid. Id adipisci, rem corrupti 
-                        asperiores distinctio delectus quae quia tenetur totam laboriosam quam. Lorem ipsum, 
-                        dolor sit amet consectetur adipisicing elit. Dolores soluta ullam ipsa voluptates 
-                        repudiandae dignissimos deleniti mollitia eum. Laudantium placeat velit nemo illo 
-                        pariatur. Fuga aperiam impedit illo atque repellendus!
-                    </p>
-
-                </div>
-
             </div>
-
+            
+            <div class="gallery-item">
+                <img src="https://i.ibb.co/5KjfJ3k/gallery5.jpg" alt="Dessert">
+                <div class="gallery-overlay">
+                    <h3>Decadent Desserts</h3>
+                    <p>Sweet creations to complete your meal</p>
+                    <a href="#" class="gallery-btn">View More</a>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="https://i.ibb.co/5KjfJ3k/gallery6.jpg" alt="Outdoor Seating">
+                <div class="gallery-overlay">
+                    <h3>Garden Patio</h3>
+                    <p>Al fresco dining in our beautiful outdoor space</p>
+                    <a href="#" class="gallery-btn">View More</a>
+                </div>
+            </div>
         </div>
+    </section>
 
-    </div>
-    <!--Order-->
-
-    <div class="order" id="Order">
-        <h1><span>Order</span>Now</h1>
-
-        <div class="order_main">
-
-            <div class="order_image">
-                <img src="image/order_image.png" alt="order_image">
+    <!-- Reviews Section -->
+    <section class="section" id="Review">
+        <div class="section-title">
+            <h1>Customer <span>Reviews</span></h1>
+        </div>
+        
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="https://i.ibb.co/5KjfJ3k/reviewer1.jpg" alt="Sarah Johnson">
+                </div>
+                <h3 class="reviewer-name">Sarah Johnson</h3>
+                <div class="review-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-text">"The truffle pasta was absolutely divine! The atmosphere was perfect for our anniversary dinner. Service was impeccable and the wine pairing suggestions were spot on."</p>
+                <div class="review-social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
             </div>
-
-            <form action="#">
-
-                <div class="input">
-                    <p>Name</p>
-                    <input type="text" placeholder="you name">
+            
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="https://i.ibb.co/5KjfJ3k/reviewer2.jpg" alt="Michael Chen">
                 </div>
-
-                <div class="input">
-                    <p>Email</p>
-                    <input type="email" placeholder="you email">
+                <h3 class="reviewer-name">Michael Chen</h3>
+                <div class="review-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
                 </div>
-
-                <div class="input">
-                    <p>Number</p>
-                    <input placeholder="you number">
+                <p class="review-text">"I've dined at many fine restaurants, but Savory Delights stands out. The seared salmon was cooked to perfection, and the chocolate dessert was heavenly. Will definitely return!"</p>
+                <div class="review-social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-
-                <div class="input">
-                    <p>How Much</p>
-                    <input type="number" placeholder="how many order">
+            </div>
+            
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="https://i.ibb.co/5KjfJ3k/reviewer3.jpg" alt="Emma Rodriguez">
                 </div>
-
-                <div class="input">
-                    <p>You Order</p>
-                    <input placeholder="food name">
+                <h3 class="reviewer-name">Emma Rodriguez</h3>
+                <div class="review-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
                 </div>
-
-                <div class="input">
-                    <p>Address</p>
-                    <input placeholder="you Address">
+                <p class="review-text">"Exceptional from start to finish! The ambiance, service, and food quality exceeded all expectations. The chef's tasting menu was a culinary journey I'll never forget."</p>
+                <div class="review-social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <a href="#" class="order_btn">Order Now</a>
-
+    <!-- Order Section -->
+    <section class="section" id="Order">
+        <div class="section-title">
+            <h1><span>Order</span> Online</h1>
+        </div>
+        
+        <div class="order-container">
+            <div class="order-image">
+                <img src="https://i.ibb.co/5KjfJ3k/delivery.png" alt="Food Delivery">
+            </div>
+            
+            <form class="order-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Your phone number" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="quantity">How Many People?</label>
+                    <input type="number" id="quantity" placeholder="Number of people" min="1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="order">Your Order</label>
+                    <input type="text" id="order" placeholder="What would you like to order?" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Delivery Address</label>
+                    <input type="text" id="address" placeholder="Your complete address" required>
+                </div>
+                
+                <button type="submit" class="submit-btn">Place Order Now</button>
             </form>
-
         </div>
+    </section>
 
-    </div>
-
-
-
-    <!--Team-->
-
-    <div class="team">
-        <h1>Our<span>Team</span></h1>
-
-        <div class="team_box">
-            <div class="profile">
-                <img src="image/chef1.png" alt="undefined">
-
-                <div class="info">
-                    <h2 class="name">Chef</h2>
-                    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                    <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="profile">
-                <img src="image/chef2.png" alt="undefined">
-
-                <div class="info">
-                    <h2 class="name">Chef</h2>
-                    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                    <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="profile">
-                <img src="image/chef3.jpg" alt="undefined">
-
-                <div class="info">
-                    <h2 class="name">Chef</h2>
-                    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                    <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="profile">
-                <img src="image/chef4.jpg" alt="undefined">
-
-                <div class="info">
-                    <h2 class="name">Chef</h2>
-                    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                    <div class="team_icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-
-                </div>
-
-            </div>
-
+    <!-- Team Section -->
+    <section class="section">
+        <div class="section-title">
+            <h1>Our <span>Team</span></h1>
         </div>
+        
+        <div class="team-container">
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="https://i.ibb.co/5KjfJ3k/chef1.jpg" alt="Executive Chef">
+                </div>
+                <div class="team-info">
+                    <h3>Chef Marco Rossi</h3>
+                    <p>Executive Chef</p>
+                    <div class="team-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="https://i.ibb.co/5KjfJ3k/chef2.jpg" alt="Pastry Chef">
+                </div>
+                <div class="team-info">
+                    <h3>Sophie Laurent</h3>
+                    <p>Pastry Chef</p>
+                    <div class="team-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="https://i.ibb.co/5KjfJ3k/chef3.jpg" alt="Sous Chef">
+                </div>
+                <div class="team-info">
+                    <h3>James Wilson</h3>
+                    <p>Sous Chef</p>
+                    <div class="team-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="https://i.ibb.co/5KjfJ3k/chef4.jpg" alt="Mixologist">
+                </div>
+                <div class="team-info">
+                    <h3>Elena Martinez</h3>
+                    <p>Head Mixologist</p>
+                    <div class="team-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
-
-
-
-    <!--Footer-->
-
+    <!-- Footer -->
     <footer>
-        <div class="footer_main">
-
-            <div class="footer_tag">
-                <h2>Location</h2>
-                <p>Sri Lanka</p>
-                <p>USA</p>
-                <p>India</p>
-                <p>Japan</p>
-                <p>Italy</p>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Location</h3>
+                <p>New York</p>
+                <p>Los Angeles</p>
+                <p>Chicago</p>
+                <p>Miami</p>
+                <p>San Francisco</p>
             </div>
-
-            <div class="footer_tag">
-                <h2>Quick Link</h2>
-                <p>Home</p>
-                <p>About</p>
-                <p>Menu</p>
-                <p>Gallary</p>
-                <p>Order</p>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Gallary">Gallery</a>
+                <a href="#Order">Order</a>
             </div>
-
-            <div class="footer_tag">
-                <h2>Contact</h2>
-                <p>+94 12 3456 789</p>
-                <p>+94 25 5568456</p>
-                <p>johndeo123@gmail.com</p>
-                <p>foodshop123@gmail.com</p>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>+1 (555) 123-4567</p>
+                <p>info@savorydelights.com</p>
+                <p>reservations@savorydelights.com</p>
+                <p>123 Gourmet Avenue, Culinary District</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
             </div>
-
-            <div class="footer_tag">
-                <h2>Our Service</h2>
-                <p>Fast Delivery</p>
-                <p>Easy Payments</p>
-                <p>24 x 7 Service</p>
+            
+            <div class="footer-column">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 11am - 10pm</p>
+                <p>Saturday: 10am - 11pm</p>
+                <p>Sunday: 10am - 9pm</p>
+                <p>Holidays: 12pm - 8pm</p>
             </div>
-
-            <div class="footer_tag">
-                <h2>Follows</h2>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+            
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates, special offers, and culinary inspiration.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </form>
             </div>
-
         </div>
-
-        <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> WT Master Code</span></p>
-
+        
+        <div class="copyright">
+            <p>Design by <span>Savory Delights Culinary Team</span> | &copy; 2023 All Rights Reserved</p>
+        </div>
     </footer>
 
-
-
-    
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference or respect OS preference
+        const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            
+            if (document.body.classList.contains('dark-theme')) {
+                localStorage.setItem('theme', 'dark');
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                localStorage.setItem('theme', 'light');
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        });
+        
+        // Mobile Navigation
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+        
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            hamburger.innerHTML = navMenu.classList.contains('active') ? 
+                '<i class="fa-solid fa-xmark"></i>' : 
+                '<i class="fa-solid fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#navMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll animation to elements
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        
+        document.querySelectorAll('.section, .menu-card, .review-card, .gallery-item').forEach(el => {
+            el.classList.add('hidden');
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
