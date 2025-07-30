@@ -22,7 +22,7 @@ A simple and responsive food landing page made with HTML & CSS.
 **Issam Ouabi**  
 Web Developer | Founder of **ISCODE**  
 📫 Email: ouabiissam24@gmail.com  
-🌐 Ko-fi: [ko-fi.com/issamoua](https://ko-fi.com/iscode)
+🌐 Ko-fi: [ko-fi.com/iscode](https://ko-fi.com/iscode)
 
 ---
 
